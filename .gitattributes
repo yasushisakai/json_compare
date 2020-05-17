@@ -1,1 +1,2 @@
-.json binary
+*.json binary
+*.json diff=json
