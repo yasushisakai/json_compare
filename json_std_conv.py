@@ -3,12 +3,8 @@
 import sys
 import json
 
+inp = sys.stdin
 
-inp = input()
-print(inp)
-
-file = open(inp, 'r')
-data = json.loads(file.read())
-file.close()
+data = json.loads(inp.read())
 
 print(json.dumps(data, sort_keys=True, indent=2))
