@@ -1,2 +1,1 @@
-*.json binary
-*.json diff=json
+*.json filter=consistent
