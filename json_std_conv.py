@@ -1,12 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 import json
 
-# file_name = sys.argv[1]
-file_name = input()
 
-file = open(file_name, 'r')
+inp = input()
+print(inp)
+
+file = open(inp, 'r')
 data = json.loads(file.read())
 file.close()
 
